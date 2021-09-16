@@ -9,3 +9,17 @@ while True:
     if Guess == secret_number:
         print("Correct!")
         break
+
+    if Guess != secret_number:
+        print("Wrong! Try Again!")
+    if Guess == secret_number:
+        print("Correct!")
+        break
+
+    if Guess != secret_number:
+        print("Wrong! Try Again!")
+    if Guess == secret_number:
+        print("Correct!")
+        break
+    print("Sorry, It's a loss for you!")
+    break
